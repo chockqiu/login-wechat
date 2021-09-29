@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.chockqiu.login.wechat" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chockqiu.login.wechat">
+
+    <application>
+        <activity android:name=".WXEntryActivity" />
+    </application>
+</manifest>

@@ -14,7 +14,7 @@ allprojects {
 ```
 在app的build.gradle中添加lib依赖
 ```
-implementation 'com.github.chockqiu:login-wechat:v1.1'
+implementation 'com.github.chockqiu:login-wechat:v1.2'
 ```
 
 #### 2、在AndroidManifest.xml注册Activity
