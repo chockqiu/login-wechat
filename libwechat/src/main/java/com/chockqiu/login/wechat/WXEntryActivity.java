@@ -34,6 +34,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
     @Override
     public void onResp(BaseResp baseResp) {
         WechatLoginUtils.getInstance().processResult(baseResp);
+        finish();
     }
 
     @Override
