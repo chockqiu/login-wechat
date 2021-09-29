@@ -1,0 +1,3 @@
+rootProject.name = "AuthLoginWechat"
+include ':app'
+include ':libwechat'
