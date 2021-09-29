@@ -13,7 +13,7 @@ allprojects {
 ```
 添加依赖
 ```
-implementation 'com.github.chockqiu:login-wechat:v1.0'
+implementation 'com.github.chockqiu:login-wechat:v1.1'
 ```
 
 在Application的onCreate注册应用
