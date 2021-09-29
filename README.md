@@ -21,7 +21,7 @@ implementation 'com.github.chockqiu:login-wechat:v1.1'
 (使用activity-alias给目标Activity设置别名)
 ```
 <activity-alias
-            android:name="{替换为你自己的应用包名}.wxapi.WXPayEntryActivity"
+            android:name="{替换为你自己的应用包名}.wxapi.WXEntryActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:launchMode="singleTask"
