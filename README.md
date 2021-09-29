@@ -18,7 +18,7 @@ implementation 'com.github.chockqiu:login-wechat:v1.1'
 
 在Application的onCreate注册应用
 ```
-WechatLoginUtils.getInstance().registerApp(this, "请求的AppId");
+WechatLoginUtils.getInstance().registerApp(this, "从微信官方申请的AppId");//AppId与应用一一对应, 不可随意填写
 ```
 唤起微信登录
 ```
