@@ -59,7 +59,8 @@ public class WechatLoginUtils {
      *
      * @return 结果
      */
-    public boolean login() {
+    public boolean login(ResultCallback callback) {
+        mResultCallback = callback;
         if (isWxAppInstalled()) {
             SendAuth.Req req = new SendAuth.Req();
             req.scope = "snsapi_userinfo";
@@ -71,15 +72,6 @@ public class WechatLoginUtils {
     }
 
     public ResultCallback mResultCallback;
-
-    /**
-     * 设置微信回调结果
-     *
-     * @param callback 回调
-     */
-    public void setResultCallback(ResultCallback callback) {
-        mResultCallback = callback;
-    }
 
     void processResult(BaseResp baseResp) {
         if (mResultCallback != null) {
